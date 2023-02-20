@@ -1,0 +1,68 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #f7f2f2;
+    font-family: Arial
+}
+
+.navbar ul{
+    list-style: none;
+    background: #663366;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.navbar li{
+    display: inline-block; 
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: palevioletred;
+}
+
+h1 {
+    color: #bd8cbd;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    color: #daa3da;
+    text-align: center;
+}
+fieldset {
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    min-width: 200px;
+}
+    
+label {
+    display: block;
+    margin-top: 0;
+}
+legend {
+    font-weight: bold;
+    font-size: large;
+
+}
+input {
+    padding: 1em;
+    border: solid 1px;
+}
+
+input[type="email"], input[type="text"] {
+    width: max-content;
+}
+
+
